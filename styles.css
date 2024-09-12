@@ -6,3 +6,72 @@
     font-style: normal;
 
 }
+
+html, body {
+    --font-color: white;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: darkgoldenrod;
+}
+a {
+    color: var(--font-color);
+}
+
+#container {
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    mask-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    height: inherit;
+    position: relative;
+    flex:0.35;
+    background-image: url('./images/halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: 600px auto;
+    background-repeat: no-repeat;
+    text-align:center;
+    color: var(--font-color);
+
+}
+
+.form-base{
+    flex: 1;
+}
+
+img.forest {
+    height: 100%;
+    width: auto;
+}
+
+.black-seethrew {
+    color: white;
+    position: relative;
+    flex-basis: 30%;
+    top: 200px;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 10px 10px;
+    font-family: 'norsebold';
+    font-size: 8rem;
+    text-align: center;
+}
+
+.odin-logo {
+    height: 128px;
+    position: relative;
+    top: 10px
+}
+
+.photo-info {
+    position: fixed;
+    bottom: 1%;
+    left: 5%;
+}
