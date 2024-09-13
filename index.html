@@ -24,9 +24,48 @@
             </div>
         </div>
         <div class="form-base">
-            <form action="/" method="post">
-                <p>text</p>
+            <div class="motivational-info">
+                <p>This is not a real online service!
+                    You know you need something like this in your life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form id="registration-form" action="/" method="post">
+                <p>Let's do this!</p>
+                <div class="row">
+                    <p>
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="firstName" id="first-name">
+                    </p>
+                    <p>
+                        <label for="last-name">First Name</label>
+                        <input type="text" name="lastName" id="last-name">
+                    </p>
+                </div>
+                <div class="row">
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+                    <p>
+                        <label for="telephone">Telephone number</label>
+                        <input type="tel" name="telNumber" id="telephone">
+                    </p>
+                </div>
+                <div class="row"></div>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </p>
+                    <p>
+                        <label for="confPassword">Confirm password</label>
+                        <input type="password" name="confPassword" id="confPassword" required>
+                    </p>
+                </div>
             </form>
+            <button form="registration-form" type="submit">Create Account</button>
+            <p>Already have an account? <a class="green" href="/login">Log in</a></p>
         </div>
     </div>
 </body>
