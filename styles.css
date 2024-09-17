@@ -163,3 +163,7 @@ button[type="submit"]:hover {
     background-color: #37462c;
 }
 
+a[href="/login"] {
+    text-decoration: none;
+    color:#596D48;
+}
