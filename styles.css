@@ -158,3 +158,8 @@ button[type="submit"] {
     border: none;
     box-shadow: 5px 5px 10px gray;
 }
+
+button[type="submit"]:hover {
+    background-color: #37462c;
+}
+
